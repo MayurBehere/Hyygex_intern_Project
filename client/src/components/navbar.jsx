@@ -11,11 +11,11 @@ const navbar = () => {
         </div>
         
         <div className='flex space-x-14 items-center'>
-          <a href="/" className='text-#3A3740'>Home</a>
-          <a href="/" className='text-#3A3740'>Flashcard</a>
-          <a href="/" className='text-#3A3740'>Contact</a>
-          <a href="/" className='text-#3A3740'>FAQ</a>
-          <button className='text-white' style={{ width: '120px', height: '42px', borderRadius: '32px', background: 'linear-gradient(180deg, #06286E 0%, #164EC0 100%)' }}>Login</button>
+          <a href="/" className='text-#3A3740 hover:text-blue-500 transition-colors duration-300'>Home</a>
+          <a href="/" className='text-#3A3740 hover:text-blue-500 transition-colors duration-300'>Flashcard</a>
+          <a href="/" className='text-#3A3740 hover:text-blue-500 transition-colors duration-300'>Contact</a>
+          <a href="/" className='text-#3A3740 hover:text-blue-500 transition-colors duration-300'>FAQ</a>
+          <button className='text-white animate-pop-out' style={{ width: '120px', height: '42px', borderRadius: '32px', background: 'linear-gradient(180deg, #06286E 0%, #164EC0 100%)' }}>Login</button>
         </div> 
       </div>
     </nav>  
