@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../app.css";
+import "../App.css";
 import bulb from "../assets/bulb.svg";
 import speaker from "../assets/speaker.svg";
 import refresh from "../assets/refresh.svg";
