@@ -1,4 +1,4 @@
-import './app.css'
+import '../App.css'
 import Navbar from './components/navbar.jsx'
 import Prehero from './components/prehero.jsx'
 import Hero from './components/hero.jsx'
