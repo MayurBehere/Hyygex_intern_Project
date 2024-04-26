@@ -37,9 +37,9 @@ const Hero = () => {
                   <a
                     href="#"
                     onClick={() => setActiveLink(link)}
-                    className={`font-bold text-xl text-white ${
+                    className={`font-bold text-xl ${
                       activeLink === link
-                        ? "gradient-secondary border-b-6 border-rgba(6, 40, 110, 1)"
+                        ? "text-white gradient-secondary border-b-6 border-rgba(6, 40, 110, 1)"
                         : "text-gray-500"
                     }`}
                   >
